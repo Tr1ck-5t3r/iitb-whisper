@@ -1,21 +1,30 @@
-##Introduction
-Whisper is an innovative tool by openai that helps to transcribe and translate to multiple languages. Objective of this project was to implement Openai-whisper on kathbath dataset and to evaluate the performance of the model using wer.
+# OpenAI Whisper Evaluation
 
-##About
-I have implemented the openai-whisper on kathbath dataset for test audios along with the dataset provided by iit-b and evaluated the performance of the model using wer.
+## Introduction
 
-#kathbath dataset
+OpenAI Whisper is an innovative tool designed to transcribe and translate audio recordings into multiple languages. The objective of this project was to implement OpenAI Whisper on the Kathbath dataset and evaluate the model's performance using Word Error Rate (WER).
 
-- code: kathbath-whisper.ipynb
-- dataset,results of transcriptions: results-kathbath-whisper.csv
+## About
 
-#iit dataset
+This repository contains implementations of OpenAI Whisper on two datasets: the Kathbath dataset and the IIT-B dataset. The Kathbath dataset was utilized for testing purposes, along with the dataset provided by IIT-B. The implementation was carried out in separate Jupyter notebooks for each dataset, along with the corresponding datasets and the results of transcriptions.
 
-- code: iit-assignment-whisper.ipynb
-- dataset,results of transcriptions: results-iit-assignment-whisper.csv
+### Kathbath Dataset
 
-##Results
-The model was able to transcribe the kathbath hindi dataset with a wer of 40.75%. The model was able to transcribe and translate the iit-b dataset with a wer of 69.02 %.
+- **Code**: `kathbath-whisper.ipynb`
+- **Results**: `results-kathbath-whisper.csv`
 
-##Conclusion
-The model was able to transcribe the kathbath dataset with a wer of 40.75%. I was succesfully able to implement the openai-whisper on kathbath dataset and evaluate the performance of the model using wer. I thank you for this opportunity and I am eager to join your team and contribute to the project. Thank you for your time and consideration.
+### IIT Dataset
+
+- **Code**: `iit-assignment-whisper.ipynb`
+- **Results**: `results-iit-assignment-whisper.csv`
+
+## Results
+
+The performance of the model was evaluated based on the Word Error Rate (WER) metric.
+
+- **Kathbath Dataset**: The model achieved a WER of 40.75%.
+- **IIT-B Dataset**: The model achieved a WER of 69.02%.
+
+## Conclusion
+
+In conclusion, the model demonstrated promising performance in transcribing the Kathbath dataset with a WER of 40.75%. The implementation of OpenAI Whisper on the Kathbath dataset was successful, and the model's performance was evaluated using WER. I am grateful for the opportunity to work on this project and am keen to contribute to your team. Thank you for considering my application and for your time.
